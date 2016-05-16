@@ -1,3 +1,10 @@
+<%-- 
+    Document   : index
+    Created on : 16/05/2016, 17:31:55
+    Author     : john
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,28 +15,9 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Financeiro</a>
-                </div>
-                <div id="navbar" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">Nova Entrada</a></li>
-                        <li><a href="#contact">Nova Saida</a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
-            </div>
-        </nav>
-        <br/><br/><br/><br/>
-        <div class="container">
+    <%@include file="barra-navegacao.jsp" %>
+      
+    <div class="container">
             <div class="panel panel-primary">
                 <div class="panel-heading">Receita</div>
                 <div class="panel-body">
