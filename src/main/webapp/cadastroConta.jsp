@@ -24,9 +24,9 @@
                         Valor: <input class="form-control" name="valor" type="number"/> <br>
                         Vencimento: <input class="form-control" name="vencimento" type="date"/> <br>
 
-                        <input type="radio" name="fixa" /> Fixa<br/>
+                        <input type="checkbox" name="fixa" checked="true"/> Fixa<br/>
 
-                        Nº Parcelas <input class="form-control" type="number"  style="width: 20%" value="1" />
+                        Nº Parcelas <input class="form-control" type="number" name ="qtdParcela" style="width: 20%" value="1" />
                         <br/><br/>
                         <button class="btn btn-success btn-block" type="submit" >Confirmar</button>
                     </form>
