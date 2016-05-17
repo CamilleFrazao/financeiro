@@ -11,6 +11,6 @@ package model;
  */
 public enum Status {
     
-    A_Pagar, Pago, Cancelado;
+    A_PAGAR, PAGO, CANCELADO, EM_ATRASO;
     
 }

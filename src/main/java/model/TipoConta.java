@@ -11,6 +11,6 @@ package model;
  */
 public enum TipoConta {
     
-    Entrada, Saida;
+    ENTRADA, SAIDA;
     
 }
